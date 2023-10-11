@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'HTLAimLabAngular';
+
+  ChangeTitle(title:string)
+  {
+    this.title = title;
+  }
 }
